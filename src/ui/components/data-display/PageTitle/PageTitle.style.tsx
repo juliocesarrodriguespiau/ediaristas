@@ -27,5 +27,3 @@ export const PageSubtitleStyled = styled('h3')`
         font-size: ${({theme}) => theme.typography.body2.fontSize};
     }
 `;
-
-
