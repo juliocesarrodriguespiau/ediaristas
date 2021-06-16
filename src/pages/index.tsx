@@ -11,6 +11,8 @@ export default function Home() {
         title={'Conheça os Profissionais'}
         subtitle={'Preencha seu endereço e veja todos os profissionais de sua localidade'} 
       />
+
+      <UserInformation />
     </div>
   );
 }

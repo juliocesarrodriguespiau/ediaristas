@@ -1,21 +1,15 @@
-import React from 'react';
-import { 
-    UserInformationContainer, 
-    UserName, 
-    UserDescription, 
-    AvatarStyled, 
-    RatingStyled 
-} from './UserInformation.style';
+import React from "react";
+import {
+  UserInformationContainer,
+  UserName,
+  UserDescription,
+  AvatarStyled,
+  RatingStyled,
+} from "./UserInformation.style";
 
 const UserInformation = (props) => {
-  return (
-      <UserInformationContainer>
-          <AvatarStyled />
-          <UserName>julio</UserName>
-          <RatingStyled />
-          <UserDescription />
-      </UserInformationContainer>
-  );
+  return <UserInformationContainer>
+      <AvatarStyled />
+      <UserName>julio</UserName>
+  </UserInformationContainer>;
 };
-
-export default UserInformation;
